@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">dentistaApp</string>
+    <string name="logo">Logo</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="criarcad">Cadastro</string>
+    <string name="cad">Ainda Não Possui Uma Conta ?</string>
+</resources>
