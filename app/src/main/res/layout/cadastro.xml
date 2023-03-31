@@ -1,89 +1,202 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tvLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="@string/logo"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="200dp"
-        />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            >
 
-    <TextView
-        android:id="@+id/tvEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="60dp"
-        android:text="@string/email"
-        android:layout_below="@id/tvLogo"
-        />
 
-    <EditText
-        android:id="@+id/etEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="60dp"
-        android:layout_below="@id/tvEmail"
-        />
+            <TextView
+                android:id="@+id/tvLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/logo"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                />
 
-    <TextView
-        android:id="@+id/tvSenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="60dp"
-        android:text="@string/senha"
-        android:layout_below="@id/etEmail"
-        />
+            <TextView
+                android:id="@+id/tvTituloCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/tituloCad"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_below="@id/tvLogo"
+                android:textSize="20pt"
+                />
 
-    <EditText
-        android:id="@+id/etSenha"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="60dp"
-        android:layout_below="@id/tvSenha"
-        />
+            <TextView
+                android:id="@+id/tvNomeCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="60dp"
+                android:text="@string/nomeCad"
+                android:layout_below="@id/tvTituloCad"
+                />
 
-    <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/etSenha"
-        android:text="@string/login"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginTop="20dp"
-        />
+            <EditText
+                android:id="@+id/etNomeCad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_below="@id/tvNomeCad"
+                />
 
-    <TextView
-        android:id="@+id/tvCad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="60dp"
-        android:text="@string/cad"
-        android:layout_below="@id/btnLogin"
-        />
+            <TextView
+                android:id="@+id/tvCpfCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="60dp"
+                android:text="@string/cpfCad"
+                android:layout_below="@id/etNomeCad"
+                />
 
-    <Button
-        android:id="@+id/btnCriarCad"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvCad"
-        android:text="@string/criarcad"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="60dp"
+            <EditText
+                android:id="@+id/etCpfCad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_below="@id/tvCpfCad"
+                />
 
-        />
+            <TextView
+                android:id="@+id/tvEmailCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="60dp"
+                android:text="@string/emailCad"
+                android:layout_below="@id/etCpfCad"
+                />
 
-</RelativeLayout>
+            <EditText
+                android:id="@+id/etEmailCad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_below="@id/tvEmailCad"
+                />
+
+            <TextView
+                android:id="@+id/tvTelefoneCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="60dp"
+                android:text="@string/telefoneCad"
+                android:layout_below="@id/etEmailCad"
+                />
+
+            <EditText
+                android:id="@+id/etTelefoneCad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_below="@id/tvTelefoneCad"
+                />
+
+            <TextView
+                android:id="@+id/tvEndereco1Cad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="60dp"
+                android:text="@string/Endereco1Cad"
+                android:layout_below="@id/etTelefoneCad"
+                />
+
+            <EditText
+                android:id="@+id/etEndereco1Cad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_below="@id/tvEndereco1Cad"
+                />
+
+            <TextView
+                android:id="@+id/tvEndereco2Cad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="60dp"
+                android:text="@string/Endereco2Cad"
+                android:layout_below="@id/etEndereco1Cad"
+                />
+
+            <EditText
+                android:id="@+id/etEndereco2Cad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_below="@id/tvEndereco2Cad"
+                />
+
+            <TextView
+                android:id="@+id/tvEndereco3Cad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="60dp"
+                android:text="@string/Endereco3Cad"
+                android:layout_below="@id/etEndereco2Cad"
+                />
+
+            <EditText
+                android:id="@+id/etEndereco3Cad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_below="@id/tvEndereco3Cad"
+                />
+
+            <TextView
+                android:id="@+id/tvCurriculoCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="60dp"
+                android:text="@string/CurriculoCad"
+                android:layout_below="@id/etEndereco3Cad"
+                />
+
+            <EditText
+                android:id="@+id/etCurriculoCad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:text="@string/CurriculoTamCad"
+                android:layout_below="@id/tvCurriculoCad"
+                />
+
+            <Button
+                android:id="@+id/btnCriarCad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etCurriculoCad"
+                android:text="@string/Cadastrar"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                />
+
+        </RelativeLayout>
+</ScrollView>
+

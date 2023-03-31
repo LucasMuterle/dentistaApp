@@ -2,8 +2,19 @@
     <string name="app_name">dentistaApp</string>
     <string name="logo">Logo</string>
     <string name="email">E-mail</string>
+    <string name="emailCad">E-mail:</string>
     <string name="senha">Senha</string>
     <string name="login">Login</string>
     <string name="criarcad">Cadastro</string>
     <string name="cad">Ainda Não Possui Uma Conta ?</string>
+    <string name="tituloCad">Cadastro</string>
+    <string name="nomeCad">Nome:</string>
+    <string name="cpfCad">CPF:</string>
+    <string name="telefoneCad">Telefone:</string>
+    <string name="Cadastrar">Cadastrar</string>
+    <string name="Endereco1Cad">Endereço 1:</string>
+    <string name="Endereco2Cad">Endereço 2:</string>
+    <string name="Endereco3Cad">Endereço 3:</string>
+    <string name="CurriculoCad">Curriculo:</string>
+    <string name="CurriculoTamCad">Maximo de 2000 Palavras</string>
 </resources>
