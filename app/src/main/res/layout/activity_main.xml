@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/ivLogo"
-        android:src="@drawable/TeethKidsÍcone"
+        android:src="@drawable/teethkidsicone"
         android:layout_marginTop="80dp"
         android:layout_marginStart="170dp"
         android:layout_width="86dp"
@@ -59,7 +59,6 @@
         android:maxLength="20"
         android:layout_marginLeft="60dp"
         android:layout_marginRight="60dp"
-
         android:layout_below="@id/tvSenha"
         />
 
