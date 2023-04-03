@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatButton
+import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,7 +18,6 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this,FormCadastro::class.java)
             startActivity(intent)
-
         }
     }
 }
