@@ -12,39 +12,28 @@
             >
 
 
-            <TextView
-                android:id="@+id/tvLogo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="@string/logo"
-                android:gravity="center_horizontal"
-                android:layout_marginTop="50dp"
-                />
-
-            <TextView
-                android:id="@+id/tvTituloCad"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="@string/tituloCad"
-                android:gravity="center_horizontal"
-                android:layout_marginTop="50dp"
-                android:layout_below="@id/tvLogo"
-                android:textSize="20pt"
-                />
+            <ImageView
+                android:id="@+id/ivLogoCadastro"
+                android:src="@drawable/TeethKidsÍcone"
+                android:layout_width="86dp"
+                android:layout_height="76dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="170dp"/>
 
             <TextView
                 android:id="@+id/tvNomeCad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginStart="60dp"
                 android:text="@string/nomeCad"
-                android:layout_below="@id/tvTituloCad"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@id/ivLogoCadastro"
                 />
 
             <EditText
+                style="@style/Edit_text"
                 android:id="@+id/etNomeCad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -60,10 +49,13 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="60dp"
                 android:text="@string/cpfCad"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:layout_below="@id/etNomeCad"
                 />
 
             <EditText
+                style="@style/Edit_text"
                 android:id="@+id/etCpfCad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -79,10 +71,13 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="60dp"
                 android:text="@string/emailCad"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:layout_below="@id/etCpfCad"
                 />
 
             <EditText
+                style="@style/Edit_text"
                 android:id="@+id/etEmailCad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -97,11 +92,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="60dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:text="@string/telefoneCad"
                 android:layout_below="@id/etEmailCad"
                 />
 
             <EditText
+                style="@style/Edit_text"
                 android:id="@+id/etTelefoneCad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -117,10 +115,13 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="60dp"
                 android:text="@string/Endereco1Cad"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:layout_below="@id/etTelefoneCad"
                 />
 
             <EditText
+                style="@style/Edit_text"
                 android:id="@+id/etEndereco1Cad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -136,10 +137,13 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="60dp"
                 android:text="@string/Endereco2Cad"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:layout_below="@id/etEndereco1Cad"
                 />
 
             <EditText
+                style="@style/Edit_text"
                 android:id="@+id/etEndereco2Cad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -155,10 +159,13 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="60dp"
                 android:text="@string/Endereco3Cad"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:layout_below="@id/etEndereco2Cad"
                 />
 
             <EditText
+                style="@style/Edit_text"
                 android:id="@+id/etEndereco3Cad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -174,27 +181,33 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="60dp"
                 android:text="@string/CurriculoCad"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:layout_below="@id/etEndereco3Cad"
                 />
 
             <EditText
+                style="@style/Edit_text"
                 android:id="@+id/etCurriculoCad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
                 android:layout_marginRight="60dp"
-                android:text="@string/CurriculoTamCad"
+                android:hint="Máximo de 2000 palavras"
+                android:maxLength="2000"
                 android:layout_below="@id/tvCurriculoCad"
                 />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnCriarCad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/etCurriculoCad"
                 android:text="@string/Cadastrar"
+                android:background="@drawable/button"
                 android:layout_marginStart="60dp"
                 android:layout_marginEnd="60dp"
+                android:layout_marginTop="20dp"
                 />
 
         </RelativeLayout>

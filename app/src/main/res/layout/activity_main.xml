@@ -6,38 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="@string/logo"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="150dp"
-        />
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:src="@drawable/TeethKidsÍcone"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="170dp"
+        android:layout_width="86dp"
+        android:layout_height="76dp"/>
+
 
     <TextView
         android:id="@+id/tvEmail"
         android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginStart="60dp"
         android:text="@string/email"
-        android:layout_below="@id/tvLogo"
+        android:layout_below="@id/ivLogo"
         />
 
     <EditText
         android:id="@+id/etEmail"
+        style="@style/Edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
         android:layout_marginRight="60dp"
         android:layout_below="@id/tvEmail"
+        android:maxLength="25"
         />
 
     <TextView
         android:id="@+id/tvSenha"
         android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="60dp"
@@ -47,43 +52,51 @@
 
     <EditText
         android:id="@+id/etSenha"
+        style="@style/Edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:maxLength="20"
         android:layout_marginLeft="60dp"
         android:layout_marginRight="60dp"
+
         android:layout_below="@id/tvSenha"
         />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/etSenha"
         android:text="@string/login"
+        android:background="@drawable/button"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         />
 
     <TextView
         android:id="@+id/tvCad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         android:layout_marginTop="20dp"
         android:layout_marginStart="60dp"
         android:text="@string/cad"
         android:layout_below="@id/btnLogin"
         />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnCriarCad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvCad"
         android:text="@string/criarcad"
+        android:layout_marginTop="3dp"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
-
+        android:background="@drawable/button"
         />
 
 </RelativeLayout>
