@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val buttonCadastro = findViewById<AppCompatButton>(R.id.btnCriarCad)
+        val buttonCadastro = findViewById<AppCompatButton>(R.id.btnIrCad)
 
         buttonCadastro.setOnClickListener {
 

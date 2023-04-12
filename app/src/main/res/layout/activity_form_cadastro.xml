@@ -89,6 +89,29 @@
             />
 
         <TextView
+            android:id="@+id/tvSenhaCad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="60dp"
+            android:text="@string/senhaCad"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_below="@id/etEmailCad"
+            />
+
+        <EditText
+            style="@style/Edit_text"
+            android:id="@+id/etSenhaCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_below="@id/tvSenhaCad"
+            />
+        <TextView
             android:id="@+id/tvTelefoneCad"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -97,7 +120,7 @@
             android:textColor="@color/black"
             android:textStyle="bold"
             android:text="@string/telefoneCad"
-            android:layout_below="@id/etEmailCad"
+            android:layout_below="@id/etSenhaCad"
             />
 
         <EditText

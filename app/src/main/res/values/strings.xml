@@ -17,4 +17,5 @@
     <string name="Endereco3Cad">Endereço 3:</string>
     <string name="CurriculoCad">Curriculo:</string>
     <string name="CurriculoTamCad">Maximo de 2000 Palavras</string>
+    <string name="senhaCad">Senha:</string>
 </resources>
