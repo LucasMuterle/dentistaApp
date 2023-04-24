@@ -18,4 +18,13 @@
     <string name="CurriculoCad">Curriculo:</string>
     <string name="CurriculoTamCad">Maximo de 2000 Palavras</string>
     <string name="senhaCad">Senha:</string>
+    <string name="nomePerfil">Nome</string>
+    <string name="emailPerfil">E-mail</string>
+    <string name="telefonePerfil">Telefone</string>
+    <string name="statusPerfil">Status</string>
+    <string name="statusOn">On</string>
+    <string name="statusOff">Off</string>
+    <string name="alterarftPerfil">Alterar foto de perfil</string>
+    <string name="alterarEndereco">Alterar Endereço</string>
+    <string name="alterarCurriculo">Alterar currículo</string>
 </resources>

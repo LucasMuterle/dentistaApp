@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:src="@drawable/teethkidsicone"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="170dp"
+        android:layout_width="86dp"
+        android:layout_height="76dp"/>
+
+    <View
+        android:layout_width="66dp"
+        android:layout_height="65dp"
+        android:background="@drawable/ftperfil"
+        android:layout_marginStart="10dp"
+        android:layout_marginVertical="150dp"/>
+
+    <ImageView
+        android:id="@+id/ivestrelas"
+        android:src="@drawable/estrelasavaliacao"
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="3dp"/>
+
+    <EditText
+        style="@style/Edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginHorizontal="100dp"
+        android:padding="30dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="80dp"
+        />
+
+    <Switch
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="356dp"
+        android:layout_marginVertical="161dp"/>
+
+    <TextView
+        android:id="@+id/tvnomePerfil"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="11dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:layout_marginStart="117dp"
+        android:text="@string/nomePerfil"
+        android:layout_below="@id/ivLogo"
+        />
+    <TextView
+        android:id="@+id/tvemailPerfil"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="11dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginStart="117dp"
+        android:text="@string/emailPerfil"
+        android:layout_below="@id/ivLogo"/>
+
+    <TextView
+        android:id="@+id/tvtelefonePerfil"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="11dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:layout_marginStart="117dp"
+        android:text="@string/telefonePerfil"
+        android:layout_below="@id/ivLogo"/>
+
+    <TextView
+        android:id="@+id/tvstatusPerfil"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="11dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginStart="360dp"
+        android:text="@string/statusPerfil"
+        android:layout_below="@id/ivLogo"/>
+
+    <TextView
+        android:id="@+id/tvstatusOn"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="7dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:layout_marginStart="380dp"
+        android:text="@string/statusOn"
+        android:layout_below="@id/ivLogo"/>
+
+    <TextView
+        android:id="@+id/tvstatusOff"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="7dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:layout_marginStart="362dp"
+        android:text="@string/statusOff"
+        android:layout_below="@id/ivLogo"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnalterarftPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alterarftPerfil"
+        android:background="@drawable/button"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="350dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnalterarEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alterarEndereco"
+        android:background="@drawable/button"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="450dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnalterarCurriculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alterarCurriculo"
+        android:background="@drawable/button"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="550dp"/>
+
+
+
+</RelativeLayout>
