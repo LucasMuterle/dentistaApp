@@ -27,4 +27,12 @@
     <string name="alterarftPerfil">Alterar foto de perfil</string>
     <string name="alterarEndereco">Alterar Endereço</string>
     <string name="alterarCurriculo">Alterar currículo</string>
+    <string name="chamadaEmergencia">Chamadas de Emergência</string>
+    <string name="minutagem1">Há 1 min.</string>
+    <string name="minutagem2">Há 8 min.</string>
+    <string name="minutagem3">Há 23 min.</string>
+    <string name="minutagem4">Há 51 min.</string>
+    <string name="minutagem5">Há 2 horas</string>
+    <string name="btnAceitar">Aceitar</string>
+    <string name="btnRejeitar">Rejeitar</string>
 </resources>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:src="@drawable/teethkidsicone"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="170dp"
+            android:layout_width="86dp"
+            android:layout_height="76dp"/>
+
+
+        <TextView
+            android:id="@+id/tvchamadaEmergencia"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="75dp"
+            android:text="@string/chamadaEmergencia"
+            android:layout_below="@id/ivLogo"
+            />
+
+        <EditText
+            style="@style/Edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginHorizontal="100dp"
+            android:padding="13dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="60dp"
+            />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ftdocumentos"
+            android:layout_marginStart="130dp"
+            android:layout_marginVertical="245dp"/>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ftdocumentos"
+            android:layout_marginStart="80dp"
+            android:layout_marginVertical="245dp"/>
+
+
+        <EditText
+            style="@style/Edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:layout_marginHorizontal="100dp"
+            android:padding="13dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="60dp"
+            />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ftdocumentos"
+            android:layout_marginStart="130dp"
+            android:layout_marginVertical="325dp"/>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ftdocumentos"
+            android:layout_marginStart="80dp"
+            android:layout_marginVertical="325dp"/>
+
+
+
+        <EditText
+            style="@style/Edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginHorizontal="100dp"
+            android:padding="13dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="60dp"
+            />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ftdocumentos"
+            android:layout_marginStart="130dp"
+            android:layout_marginVertical="405dp"/>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ftdocumentos"
+            android:layout_marginStart="80dp"
+            android:layout_marginVertical="405dp"/>
+
+
+
+        <EditText
+            style="@style/Edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:layout_marginHorizontal="100dp"
+            android:padding="13dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="60dp"
+            />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ftdocumentos"
+            android:layout_marginStart="130dp"
+            android:layout_marginVertical="485dp"/>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ftdocumentos"
+            android:layout_marginStart="80dp"
+            android:layout_marginVertical="485dp"/>
+
+
+        <EditText
+            style="@style/Edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:layout_marginHorizontal="100dp"
+            android:padding="13dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="60dp"
+            />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ftdocumentos"
+            android:layout_marginStart="130dp"
+            android:layout_marginVertical="565dp"/>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ftdocumentos"
+            android:layout_marginStart="80dp"
+            android:layout_marginVertical="565dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="5dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="173dp"
+            android:layout_marginStart="173dp"
+            android:text="@string/minutagem1"
+            android:layout_below="@id/ivLogo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="5dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="253dp"
+            android:layout_marginStart="173dp"
+            android:text="@string/minutagem2"
+            android:layout_below="@id/ivLogo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="5dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="333dp"
+            android:layout_marginStart="173dp"
+            android:text="@string/minutagem3"
+            android:layout_below="@id/ivLogo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="5dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="413dp"
+            android:layout_marginStart="173dp"
+            android:text="@string/minutagem4"
+            android:layout_below="@id/ivLogo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="5dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="493dp"
+            android:layout_marginStart="173dp"
+            android:text="@string/minutagem5"
+            android:layout_below="@id/ivLogo"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAceitar1"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:text="@string/btnAceitar"
+            android:background="@drawable/btnaceitar"
+            android:layout_marginStart="295dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginTop="247dp"
+            android:textSize="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRejeitar1"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:text="@string/btnRejeitar"
+            android:background="@drawable/btnrejeitar"
+            android:layout_marginStart="295dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginTop="268dp"
+            android:textSize="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAceitar2"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:text="@string/btnAceitar"
+            android:background="@drawable/btnaceitar"
+            android:layout_marginStart="295dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginTop="327dp"
+            android:textSize="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRejeitar2"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:text="@string/btnRejeitar"
+            android:background="@drawable/btnrejeitar"
+            android:layout_marginStart="295dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginTop="348dp"
+            android:textSize="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAceitar3"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:text="@string/btnAceitar"
+            android:background="@drawable/btnaceitar"
+            android:layout_marginStart="295dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginTop="407dp"
+            android:textSize="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRejeitar3"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:text="@string/btnRejeitar"
+            android:background="@drawable/btnrejeitar"
+            android:layout_marginStart="295dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginTop="428dp"
+            android:textSize="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAceitar4"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:text="@string/btnAceitar"
+            android:background="@drawable/btnaceitar"
+            android:layout_marginStart="295dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginTop="487dp"
+            android:textSize="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRejeitar4"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:text="@string/btnRejeitar"
+            android:background="@drawable/btnrejeitar"
+            android:layout_marginStart="295dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginTop="508dp"
+            android:textSize="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAceitar5"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:text="@string/btnAceitar"
+            android:background="@drawable/btnaceitar"
+            android:layout_marginStart="295dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginTop="567dp"
+            android:textSize="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRejeitar5"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:text="@string/btnRejeitar"
+            android:background="@drawable/btnrejeitar"
+            android:layout_marginStart="295dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginTop="588dp"
+            android:textSize="10dp"
+            />
+
+    </RelativeLayout>
+</androidx.recyclerview.widget.RecyclerView>
